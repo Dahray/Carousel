@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="slideshow.css" />
+    <title>Carousel</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="img1.jpg" />
+          <div class="text">Welcome to Church</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="img2.jpg" />
+          <div class="text">Sunday School</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="img3.jpg" />
+          <div class="text">Tithe and Offering</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="img4.jpeg" />
+          <div class="text">Thanksgiving</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="img5.jpg" />
+          <div class="text">A heart of Worship</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="img6.jpg" />
+          <div class="text">Jesus is our Hope</div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+      </div>
+
+      <script src="slideshow.js"></script>
+    </main>
+  </body>
+</html>
